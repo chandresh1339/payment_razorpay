@@ -8,8 +8,8 @@ use App\Http\Controllers\PaymentController;
 
 class PaymentController extends Controller
 {
-    private $razorpayId="rzp_test_z7p8YrpbeFGhft";
-    private $razorpayKey="n4LvoDPCTI2M71hkpfQXKVo7";
+    private $razorpayId="your API Key";
+    private $razorpayKey="Your RazorPay Secret Key";
 
     public function Initiate(Request $request)
     {
